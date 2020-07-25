@@ -8,7 +8,9 @@ public class StringRotation{
 		int sum=0;
 		for(int i=0;i<ch.length;i++)
 		{
-			sum=sum+(ch[i]*ch[i]);
+		    	int a=Character.getNumericValue(ch[i]);
+		    	int c=a*a;
+			sum=sum+c;
 		}
 		if(sum%2==0)
 		{
